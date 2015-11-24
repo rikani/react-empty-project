@@ -1,2 +1,8 @@
 
 .idea/
+
+node_modules
+browser-bundle.js
+npm-debug.log
+*~
+/www/f/assets
