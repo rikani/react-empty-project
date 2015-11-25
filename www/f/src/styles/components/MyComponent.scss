@@ -1,0 +1,11 @@
+.MyComponent {
+  color: black;
+  font-size: 45px;
+
+  &:after {
+    content: "";
+    display: inline-block;
+    @include sprite($i-russia);
+    background-repeat: no-repeat;
+  }
+}
